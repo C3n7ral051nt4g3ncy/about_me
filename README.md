@@ -1,5 +1,5 @@
 # About OSINT Tactical
-A fun python script to gain good intelligence
+A fun python script to gain intelligence
 
 <br>
 
@@ -10,13 +10,15 @@ A fun python script to gain good intelligence
 # Installation & usage
 
 ```
-git clone https://github.com/C3n7ral051nt4g3ncy/about_me
+$ git clone https://github.com/C3n7ral051nt4g3ncy/about_me
 ```
 
 ```
-cd about_me
+$ cd about_me
 ```
 
+
 ```
-python3 me.py
+$ python3 me.py
 ```
+
