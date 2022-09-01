@@ -28,16 +28,17 @@ print("\n⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄�
       "\n⠄⠄⠄⠄⠄⠄⠄⠄⠄⠑⢝⢷⣕⡷⣿⡿⠄⠄⠠⣿⣯⣯⡳⡽⡋⠌⠄⠄⠄⠄⠄⠄⠄⠄⠄"
       "\n⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠙⢮⣿⣽⣯⠄⠄⢨⣿⣿⡷⡫⠃⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄"
       "\n⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠘⠙⠝⠂⠄⢘⠋⠃⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄")
-    
+
 time.sleep(3)
 
 # basic_info
-basic_info = {}
+basic_info = {
+    'username': "OSINT Tactical",
+    'AKA': "C3n7ral051nt4g3ncy (Central OSINT Agency)",
+    'email': "Training[@]Tactical-Osint-Academy.com",
+    'location': "127.0.0.1",
+}
 
-basic_info['username'] = "OSINT Tactical"
-basic_info['AKA'] = "C3n7ral051nt4g3ncy (Central OSINT Agency)"
-basic_info['email'] = "Training[@]Tactical-Osint-Academy.com"
-basic_info['location'] = "127.0.0.1"
 
 # Feeding some basic information
 print("\n\nOk, here is some information:")
@@ -49,10 +50,11 @@ print("My current location: "+(basic_info)['location'])
 time.sleep(9)
 
 # Interests and Hobbies
-interests_hobbies = {}
+interests_hobbies = {
+    'MA': "BJJ & Krav Maga",
+    'cyber': "OSINT, CyberSecurity, Python, SOCMINT, Dark Web, Crypto",
+}
 
-interests_hobbies['MA'] = "BJJ & Krav Maga"
-interests_hobbies['cyber'] = "OSINT, CyberSecurity, Python, SOCMINT, Dark Web, Crypto"
 
 print("\n\nSome of my Hobbies and Passions:")
 print("\nCyber: "+(interests_hobbies)['cyber'])
@@ -63,11 +65,12 @@ time.sleep(9)
 
 
 # Social Network profiles
-social_profiles = {}
+social_profiles = {
+    'GitHub': "github.com/C3n7ral051nt4g3ncy",
+    'Keybase': "keybase.io/osint_intel",
+    'Twitter': "twitter.com/OSINT_Tactical",
+}
 
-social_profiles['GitHub'] = "github.com/C3n7ral051nt4g3ncy"
-social_profiles['Keybase'] = "keybase.io/osint_intel"
-social_profiles['Twitter'] = "twitter.com/OSINT_Tactical"
 
 print("\n\nMy Socials:")
 print("\nGitHub: "+(social_profiles)['GitHub'])
