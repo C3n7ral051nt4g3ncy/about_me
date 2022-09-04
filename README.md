@@ -1,5 +1,5 @@
 # About C3n7ral051nt4g3ncy, aka OSINT Tactical
-A fun python script to gain intelligence
+A fun python script to gain intelligence on me, with a nice surprise.
 
 <br>
 
