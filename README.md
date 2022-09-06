@@ -7,7 +7,7 @@ A fun python script to gain intelligence on me, with a nice surprise.
 
 <br>
 
-# Installation & usage
+# Installation & Usage
 
 ```
 $ git clone https://github.com/C3n7ral051nt4g3ncy/about_me
